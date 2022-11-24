@@ -1,11 +1,14 @@
 body {
     background-color: hsl(30, 38%, 92%); 
-    display: inline;
-    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
 } 
 
 footer {
-    display: block;
+    margin-top: 10px;
 }
 
 p {
